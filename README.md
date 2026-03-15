@@ -6,6 +6,7 @@ Python and Visual component tool
 
 # Theory:
 The Poisson distribution is the discrete probability distribution of the number of events occurring in a given time period, given the average number of times the event occurs over that time period.
+
 ![image](https://user-images.githubusercontent.com/104613195/166248326-fd042076-8b0b-40c4-8b11-1d8e8fcb74db.png)
 
  Conditions for Poisson Distribution:
@@ -58,7 +59,6 @@ for x in X:
     expected_probs.append(poisson_prob)
     expected_freq.append(exp_freq)
     chi_sq_components.append(chi_sq)
-
     print(f"{x}\t{poisson_prob:.4f}\t{observed_freq[x]:>8}\t{exp_freq:>9.2f}\t{chi_sq:>7.2f}")
 
 # Step 7: Calculate total Chi-square value
