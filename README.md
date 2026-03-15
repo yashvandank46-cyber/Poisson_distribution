@@ -85,14 +85,12 @@ if calculated_chi_sq < table_chi_sq:
 else:
     print("❌ The data *does not fit* the Poisson distribution at 1% level of significance.")
 ```
- 
 
 # Output : 
 
 <img width="696" height="378" alt="image" src="https://github.com/user-attachments/assets/9b53a42c-8e1b-44e8-a31e-8f48f5b1c78e" />
 
 # Results
-
 The Poisson distribution is fitted for the objects arrived from feeder per minute and the data is tested using Chi-square test. 
 
 https://github.com/yashvandank46-cyber/Poisson_distribution.git
