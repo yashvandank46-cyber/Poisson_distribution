@@ -98,4 +98,6 @@ else:
 # Results
 
 The Poisson distribution is fitted for the objects arrived from feeder per minute and the data is tested using Chi-square test. 
+
+https://github.com/yashvandank46-cyber/Poisson_distribution.git
  
